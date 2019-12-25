@@ -611,7 +611,7 @@ creating a namespace), yet they refer to the same bean.
 
 .Java-configuration
 ****
-If you use Javaconfiguration, the `@Bean` annotation can be used to provide aliases.
+If you use Java configuration, the `@Bean` annotation can be used to provide aliases.
 See <<beans-java-bean-annotation>> for details.
 ****
 
