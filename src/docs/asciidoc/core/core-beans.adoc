@@ -2013,7 +2013,7 @@ not commonly used since the plain order of declaration is usually sufficient the
 In practice, the constructor resolution
 <<beans-factory-ctor-arguments-resolution,mechanism>> is quite efficient in matching
 arguments, so unless you really need to, we recommend using the name notation
-through-out your configuration.
+throughout your configuration.
 
 
 [[beans-compound-property-names]]
