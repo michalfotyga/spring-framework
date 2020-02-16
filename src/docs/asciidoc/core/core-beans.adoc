@@ -53,7 +53,7 @@ among them, are reflected in the configuration metadata used by a container.
 == Container Overview
 
 The `org.springframework.context.ApplicationContext` interface represents the Spring IoC
-container and is responsible for instantiating, configuring, and assembling the
+container and is responsible for instantiating, configuring,and assembling the
 beans. The container gets its instructions on what objects to
 instantiate, configure, and assemble by reading configuration metadata. The
 configuration metadata is represented in XML, Java annotations, or Java code. It lets
@@ -9324,7 +9324,7 @@ is not strictly required.
 --
 Because `@Configuration` is meta-annotated with `@Component`, `@Configuration`-annotated
 classes are automatically candidates for component scanning. Using the same scenario as
-describe in the previous example, we can redefine `system-test-config.xml` to take advantage of component-scanning.
+described in the previous example, we can redefine `system-test-config.xml` to take advantage of component-scanning.
 Note that, in this case, we need not explicitly declare
 `<context:annotation-config/>`, because `<context:component-scan/>` enables the same
 functionality.
